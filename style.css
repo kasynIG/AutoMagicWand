@@ -1,0 +1,26 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #58a6ff;
+  margin-bottom: 20px;
+}
+input[type="file"], select {
+  margin: 10px;
+  padding: 8px;
+  font-size: 1em;
+}
+.controls {
+  margin-bottom: 20px;
+}
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+canvas {
+  display: none;
+}

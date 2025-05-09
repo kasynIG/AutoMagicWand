@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Leadership Auto Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Leadership Auto Calculator</h1>
+  <input type="file" accept="image/*" id="upload" />
+  <div class="controls">
+    <label for="shipType">Priority Ship Type:</label>
+    <select id="shipType">
+      <option value="cruiser">Cruiser</option>
+      <option value="destroyer">Destroyer</option>
+      <option value="frigate">Frigate</option>
+    </select>
+  </div>
+  <div id="result"></div>
+  <canvas id="canvas"></canvas>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
